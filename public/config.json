@@ -1,0 +1,15 @@
+{
+    "estilos" : {
+        "sidebar_bg" : "#298306",
+        "nav_bg" : "#298306",
+        "nav_text" : "#fff",
+        "buttons_bg" : "#298306",
+        "buttons_text" : "#fff",
+        "icons_text" : "#298306"
+    },
+    "estadisticas" : {
+        "informe1" : ["Contabilidad", "RH"]
+    },
+    "notNav" : ["menuHsq"],
+    "footer" : "2020 © Sistema de gestión documental"
+}

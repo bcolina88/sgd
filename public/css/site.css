@@ -1,0 +1,392 @@
+body{
+    background: #e8ebf0 !important;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.75rem;
+}
+img {
+    max-width: 100%;
+}
+
+img.avatar {
+    border-radius: 50%;
+}
+
+
+.sidebar {
+    position: fixed;
+    top: 0px;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    padding: 20px 0;
+    border-right: 1px solid #eee;
+    width: 220px;
+}
+
+a.nav-link{
+   color: rgba(250, 250, 250 , 0.7);
+}
+a.nav-link:hover{
+    color: #fff;
+}
+
+a.nav-link i {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 18px;
+    
+}
+
+.sidebar h6 {
+    color: #fff;
+}
+img.logo {
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+
+div#login {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    background-size: 100% 100%;
+}
+
+#login img.logo {
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+
+#login input {
+    background: transparent;
+    color: #333 !important;
+    border: 0px;
+    border-bottom: 1px solid #333;
+    border-radius: 0px;
+    padding-left: 0px;
+}
+
+#login input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #333;
+}
+#login input::-moz-placeholder { /* Firefox 19+ */
+  color: #333;
+}
+#login input:-ms-input-placeholder { /* IE 10+ */
+  color: #333;
+}
+#login input:-moz-placeholder { /* Firefox 18- */
+  color: #333;
+}
+
+#login input:focus{
+    border-color: #dc3545;
+}
+
+#login button.btn.btn-danger {
+    border: 0px;
+    margin: auto;
+    display: block;
+    width: 100%;
+}
+
+#login button.btn.btn-danger:before {
+    content: "";
+    display: block;
+    left: 0%;
+    position: absolute;
+    width: 10%;
+    height: 100%;
+    top: 0%;
+    border-radius: 50% 0% 0% 50%;
+}
+
+#login button.btn.btn-danger:after {
+    content: "";
+    display: block;
+    right: 0%;
+    position: absolute;
+    width: 10%;
+    height: 100%;
+    top: 0%;
+    border-radius: 0% 50% 50% 0%;
+}
+
+p.reset {
+    color: #333;
+    text-align: center;
+}
+
+p.reset > a {
+    color: #333;
+    text-align: center;
+}
+
+p.reset img {
+    width: 15px;
+    height: 20px;
+    margin: 0px 5px;
+}
+
+.bg-img {
+    background-image: url(/panel.jpg);
+    background-size: auto 100%;
+    background-position: 50%;
+}
+hr.line {
+    border-top: 1px solid #fff;
+}
+
+.sidebar p {
+    color: #fff;
+}
+
+.title-gr {
+    background: #0aabc7;
+    font-size: 45px;
+    color: #fff;
+    padding: 40px;
+    width: 100%;
+    border-radius: 10px;
+    margin: 10px auto;
+}
+.boxLink {
+    height: 100px;
+    color: #fff;
+    font-size: 25px;
+}
+
+.boxLink .icon {
+    font-size: 80px;
+    position: absolute;
+    bottom: -20%;
+    right: 0%;
+    opacity: 0.3;
+    color: #333;
+}
+
+.boxLink.red{
+    background: #f44236 !important;
+}
+.boxLink.green{
+    background: #43b968 !important;
+}
+.boxLink.blue{
+    background: #3e70c9 !important
+}
+.boxLink.orange{
+    background: #f59345 !important
+}
+
+.estadistica i {
+    font-size: 40px;
+    text-align: center;
+    display: block;
+    color: #3e3e3e;
+}
+
+.estadistica p.cifra {
+    text-align: center;
+    font-size: 20px;
+    color: #333;
+}
+
+.estadistica p.nombre {
+    text-align: center;
+    font-size: 15px;
+    color: #3e70c9;
+    font-weight: bold;
+}
+
+li.nav-item.padre .cambio:after {
+    content: "n";
+    float: right;
+    align-items: center;
+    display: flex;
+    height: 30px;
+    font-family: "opegin" !important;
+}
+
+li.nav-item.padre.active .cambio:after {
+    content: "o";
+}
+
+li.nav-item.padre ul.hijo {
+    display: none;
+    overflow: hidden;
+    transition: all 1s;
+}
+
+.panelOp {
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+    top: 0px;
+    left: 0px;
+    padding-left: 220px;
+    min-height: 100%;
+}
+.showMenu {
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.showMenu:hover{
+    color:#000;
+}
+
+.showActivity {
+    color: rgba(0, 0, 0, 0.5);
+    width: 30px;
+    height: 30px;
+    border-left: 1px solid #33333394;
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color: rgba(51, 51, 51, 0.58);
+    margin-left: 15px;
+    padding-left: 15px;
+        text-decoration: none !important;
+    font-size: 15px;
+}
+.showActivity:hover{
+    color:#000;
+}
+
+
+
+.boxAvatar {
+    width: 25%;
+}
+
+#login form {
+    background: rgba(255, 255, 255, 0.5);
+    padding: 25px;
+}
+
+.estadistica {
+    height: 150px;
+}
+
+table.table.listUsers img {
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.btn {
+    border-radius: 0px;
+    align-items: center;
+}
+
+.btn i{
+    font-size: 25px;
+}
+
+select, input, textarea {
+    border-radius: 0px !important;
+    height: calc(1.8rem) !important;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    font-size: 13px !important;
+}
+
+label.file {
+    font-size: 30px;
+    text-align: center;
+    display: block;
+    border: 1px solid #d9d9d9;
+    color: #828282;
+    cursor: pointer;
+    padding: 3rem;
+}
+
+table.table a > i {
+    color: #636363;
+    font-size: 18px;
+    text-align: center;
+    display: inline-block;
+    margin: 5px;
+}
+
+.selectDynamic {
+    width: 100%;
+    padding: 5px;
+    border-color: #d8d7d7;
+}
+
+@media (max-width: 500px) {
+    .panelOp {
+        padding-left: 0px;
+    }
+    
+    .sidebar {
+        left: -275px;
+        transition: all 1s;
+    }
+    
+    .menuCompact .sidebar {
+        left: 0px;
+    }
+    
+    .cerrarSidebar {
+        position: absolute;
+        top: 0%;
+        right: -49px;
+        background: #0d0d5b;
+        width: 50px;
+        height: 50px;
+        display: flex;
+    }
+    
+    .cerrarSidebar i {
+        font-size: 24px;
+        color: #fff;
+        position: relative;
+        margin: auto;
+        display: block;
+        text-align: center;
+    }
+    .scroll-auto{
+        overflow: auto;
+    }
+}
+
+
+@media (min-width: 500px) {
+    
+    .cerrarSidebar{
+        display: none;
+    }
+    .menuCompact .sidebar {
+        width: 70px;
+    }
+
+    .menuCompact img.logo {
+        width: 90%;
+    }
+
+    .menuCompact .boxAvatar {
+        width: 40% !important;
+    }
+
+    .menuCompact .sidebar a.nav-link {
+            font-size: 0px;
+    }
+
+    .menuCompact .sidebar a.nav-link > i {
+        color: #fff;
+        font-size: 25px;
+    }
+    
+    .menuCompact .panelOp {
+        padding-left: 70px;
+    }
+    
+    
+}
