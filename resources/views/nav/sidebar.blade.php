@@ -2,7 +2,7 @@
 <div class="site-sidebar-overlay"></div>
 <div class="site-sidebar">
     <a class="logo" href="/">
-        <img src="/no_logo.png" class="img-fluid">
+        <img src="/logo1.png" class="img-fluid">
     </a>
     <div class="custom-scroll custom-scroll-light">
 

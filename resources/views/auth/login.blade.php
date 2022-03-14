@@ -21,7 +21,7 @@
         <div class="col-md-12">
             <div class="panel panel-default">
                 <div class="panel-heading text-center">
-                    <img src="/no_logo.png" alt="" class="logo">
+                    <img src="/logo.png" alt="" class="" >
                 </div>
                 <br>
                 <div class="panel-body row justify-content-md-center">

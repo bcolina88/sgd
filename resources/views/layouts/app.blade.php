@@ -61,7 +61,7 @@
         <!-- Footer -->
             <footer class="footer site-content" style="padding-top:5px !important;">
                 <div class="container-fluid">
-                    2020 © {{ config('app.name') }}
+                    © {{ config('app.name') }}
                 </div>
             </footer> 
         </div>
